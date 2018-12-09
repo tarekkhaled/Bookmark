@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body onload="fetchBookmarks()">
+  <div class="container">
+    <div class="head-bookmark">
+      <h1>Bookmarker</h1>
+    </div>
+
+    <div class="content-bookmark text-center">
+      <div class="content-caption">
+        <h2>Bookmark Your Favourite Sites</h2>
+      </div>
+      <form id="myForm">
+        <div class="content-1">
+          <lablel>Site Name</lablel>
+          <input class="form-control" placeholder="Website Name" type="text" id="siteName">
+        </div>
+        <div class="content-2">
+          <lablel>Site URL</lablel>
+          <input class="form-control" placeholder="Website Url" type="text" id="siteUrl">
+        </div>
+
+        <button type="submit" class="btn btn-primary"> submit </button>
+      </form>
+    </div>
+
+    <!-- the place that the results will shown up here -->
+    <div id="bookmarks_result">
+
+    </div>
+
+  </div>
+
+  <footer class="text-center" style="margin:20px 0px">
+    &copy 2018 Bookmarker ,inc
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="js/validator.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

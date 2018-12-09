@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  font-size: 20px;
+  color: #20859c;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+.head-bookmark {
+  border-bottom: solid 1px #e4e4e4;
+}
+
+.head-bookmark h1 {
+  text-align: center;
+}
+
+.content-2 {
+  margin-top: 20px
+}
+
+.content-bookmark {
+  margin-top: 27px;
+  background-color: rgb(223, 219, 219);
+  position: relative;
+  padding: 33px 126px;
+  padding-bottom: 60px
+}
+
+input {
+  width: 99%;
+  height: 28px;
+  margin-top: 18px;
+}
+
+input::placeholder {
+  padding-left: 2px;
+}
+
+button {
+  margin-top: 20px;
+  letter-spacing: 1px;
+  width: 16%;
+  font-size: 16px !important;
+}
+
+/* Make the BookMark responsive  */
+
+@media only screen and (max-width:768px) {
+  .content-bookmark {
+      padding : 33px 10px;
+  }
+  button {
+    padding : 3px !important ;
+  }
+}
+
+.well {
+  margin-top: 25px;
+}
+
+a {
+  margin-left: 12px;
+}
